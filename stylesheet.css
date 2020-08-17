@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #8cac9b;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-image: url(image%20home.jpg);
+    background-repeat: no-repeat;
+}
+
+.home {
+    background-color: #ead3c7;
+    border: 10px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#proceed {
+    background-color: white;
+    border: 2px solid #deb25b;
+    border-radius: 5px;
+    display: block;
+    height: 2.5em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 150px;
+    text-align: center;
+    color: #deb25b;
+    text-decoration: none;
+
+}
+
+#proceed:hover {
+    background-color: #deb25b;
+    color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+    
+    body {
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
+    .home {
+        width: 500px;
+        margin-left: 100px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+    
+}
+
+
+    
+
+

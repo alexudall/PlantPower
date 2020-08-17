@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+* {
+    outline: solid 2px lime:
+}
+
+.header {
+    background-color: #c59cd0;
+    height: 90px;
+    color: #fef0c1;
+    border-bottom: solid 6px #fef0c1;
+}
+.nav {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
+.logo {
+    margin-top: 18px;
+    font-size: 2rem;
+}
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #f2f2f2
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.c3daf9 {
+    color: #c3daf9;
+}
+.banner {
+    text-align: center;
+    background-color: #c3daf9;
+}
+
+.featwrapper {
+    background-color: #fcb6d2;
+}
+
+.feat {
+    width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px; 
+}
+.title1 {
+    grid-column: 1/4;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #fef0c1;
+    text-align: center;
+}
+.photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutwrapper {
+    background-color: #c59cd0;
+}
+.about {
+    background-color: #c59cd0;
+    max-width: 930px;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.title {
+    font-size: 2rem;
+    grid-column: 2/3;
+    text-align: center;
+    margin-right: 40px;
+}
+.tyla img {
+    border: 10px #fef0c1 solid; 
+}
+.expl {
+    grid: 2/3;
+    margin-right: 40px;
+}
+
+.tree {
+    background-image: url(tree2.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.portwrapper {
+    background-color: #f2f2f2;
+}
+.port {
+    background-color: #f2f2f2;
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title3 {
+    font-size: 2rem;
+    color: #fcb6d2;
+    grid-column: 1/5;
+    margin: 20px;
+    text-align: center;
+}
+.pic1 {
+    margin: 20px;
+}
+
+.pic1 img {
+    width: 200px;
+}

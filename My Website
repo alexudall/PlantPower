@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+ <head>
+        <meta charset="utf-8" />
+        <title> Bermo </title>
+        <link rel="stylesheet" href="web.css" />
+    </head>
+    
+    <body>
+    <div class="header">
+        <div class="nav">
+            <div class="logo"> BERMO </div>
+            <div class="links">
+                <a href="#"> HOME </a>
+                <a href="#"> ABOUT </a>
+                <a href="#"> PORTFOLIO</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    </body>
+    
