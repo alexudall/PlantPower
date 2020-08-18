@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+ <head>
+    <meta charset="utf-8" />
+    <title> Plant Power </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}" />
+     
+</head>
+
+<body>
+
+    <div class="buttons"> 
+        
+        <div class="indoor">
+            <p> Would you like your plant to be an indoor or outdoor plant? </p> 
+        
+            <input type="radio" id="indoor" name="indoor" value="yes">
+            <label for="indoor">indoor</label><br>
+        
+            <input type="radio" id="indoor" name="indoor" value="outdoor">
+            <label for="outdoor">outdoor</label><br>
+
+    </div>
+    
+    
+        <div class="sun">
+            <p> Would you like to place your plant in direct or indirect sun light? </p>
+        
+            <input type="radio" id="sun" name="sun" value="indirect">
+            <label for="indirect">indirect</label><br>
+
+            <input type="radio" id="sun" name="sun" value="direct">
+            <label for="direct">direct</label><br>
+
+    </div>
+    
+
+   
+        <div class="water">
+            <p> How often would you like to water your plant? </p>
+        
+            <input type="radio" id="water" name="water" value="twice a week">
+            <label for="water">twice a week</label><br>
+        
+            <input type="radio" id="water" name="water" value="once a week">
+            <label for="water">once a week</label><br>
+        
+            <input type="radio" id="water" name="water" value="every week and a half">
+            <label for="water">every week and a half</label><br>
+        
+            <input type="radio" id="water" name="water" value="every two weeks">
+            <label for="water">every two weeks</label><br>       
+        </div>
+        
+        <a id="results" href="/">Click to find out results!</a>
+    </div>  
+    
+    
+    
+    
+    </body>
+    
+</html>
+    

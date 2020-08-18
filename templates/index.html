@@ -5,7 +5,7 @@
  <head>
     <meta charset="utf-8" />
     <title> Plant Power </title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}" />
      
 </head>
 
@@ -14,7 +14,7 @@
     <div class="home" >
         <h1> Plant Power</h1>
         <p>Want to buy a plant but don't know what to get? We can help you choose the best plant for you best on your wants and the plants needs. </p>
-        <a id="proceed" href="next_page.html">Find your perfect plant now!</a>
+        <a id="proceed" href="/next_page">Find your perfect plant now!</a>
     </div>
  
 </body>

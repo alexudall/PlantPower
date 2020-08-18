@@ -46,6 +46,28 @@ body {
     color: white;
 }
 
+.buttons {
+    color: burlywood;
+}
+
+#results {
+    background-color: white;
+    border: 2px solid #deb25b;
+    border-radius: 5px;
+    display: block;
+    height: 2.5em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 150px;
+    text-align: center;
+    color: #deb25b;
+    text-decoration: none;
+
+}
+
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
     
@@ -73,6 +95,8 @@ body {
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1199.98px) {
+
+}
     
 }
 
