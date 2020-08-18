@@ -8,3 +8,7 @@
 8. flask run 
 
 
+
+Always have developer tools open for changes with stylesheet to happen. 
+
+
