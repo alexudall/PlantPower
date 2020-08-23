@@ -46,8 +46,9 @@ body {
     color: white;
 }
 
-.buttons {
-    color: burlywood;
+#results:hover {
+    background-color: #deb25b;
+    color: white;
 }
 
 #results {
@@ -61,7 +62,7 @@ body {
     padding-bottom: 1em;
     width: 150px;
     text-align: center;
-    color: #deb25b;
+    color: black;
     text-decoration: none;
 
 }

@@ -12,13 +12,20 @@ def index():
 def next_page():
     return render_template('next_page.html')
 
-'''
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
     
-    
-@app.route('/results')
+@app.route('/results', methods=['POST'])
 def results():
-    return render_template('results.html')
-'''
+    sun = request.form["sun"]
+    indoor = request.form["indoor"]
+    water = request.form["water"]
+    plants = []
+    con = sqlite3.connect(MENUDB)
+    cur = con.execute('SELECT * FROM plants WHERE sun=? AND indoor=? AND water=?', (sun, indoor, water))
+    for row in cur:
+        plants.append(list(row))
+    con.close()
+    
+    
+
+    return render_template('results.html',plants=plants, indoor=indoor)
+
