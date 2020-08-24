@@ -38,7 +38,6 @@ body {
     text-align: center;
     color: #deb25b;
     text-decoration: none;
-
 }
 
 #proceed:hover {
@@ -46,7 +45,23 @@ body {
     color: white;
 }
 
-#results:hover {
+#result {
+    background-color: white;
+    border: 2px solid #deb25b;
+    border-radius: 5px;
+    display: block;
+    height: 2.5em;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    width: 150px;
+    text-align: center;
+    color: #deb25b;
+    text-decoration: none;
+}
+
+#result:hover {
     background-color: #deb25b;
     color: white;
 }
@@ -65,9 +80,34 @@ body {
     text-align: center;
     color: black;
     text-decoration: none;
-
-
 }
+
+#results:hover {
+    background-color: #deb25b;
+    color: white;
+}
+
+#back {
+    background-color: white;
+    border: 2px solid #deb25b;
+    border-radius: 5px;
+    display: block;
+    height: 2.5em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 150px;
+    text-align: center;
+    color: #deb25b;
+    text-decoration: none;
+}
+
+#back:hover {
+    background-color: #deb25b;
+    color: white;
+}
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
@@ -89,22 +129,7 @@ body {
     }
 }
 
-#back {
-    background-color: white;
-    border: 2px solid #deb25b;
-    border-radius: 5px;
-    display: block;
-    height: 2.5em;
-    margin left: 30px;
-    margin-top: 70px;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    width: 150px;
-    text-align: center;
-    color: #deb25b;
-    text-decoration: none;
 
-}
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
 

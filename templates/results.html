@@ -9,13 +9,17 @@
     
     
     <body>
-    {{ indoor }}
-    Here are your results...<br> these are the plants that are suited <br> to you based on your choices!
+        
+    <div class="home" >
+    Here are your results...<br> These are the plants that are suited to you based on your choices!
     {% for plant in plants %}
    <p> {{ plant[0] }} </p>
           {% endfor %}
-    
+
+        
     <a id="back" href="/">Return to home to find another</a>
+        
+         </div>
     </body>
 
 

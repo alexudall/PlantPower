@@ -17,6 +17,7 @@ def next_page():
 def results():
     sun = request.form["sun"]
     indoor = request.form["indoor"]
+    print(indoor)
     water = request.form["water"]
     plants = []
     con = sqlite3.connect(MENUDB)
@@ -27,5 +28,5 @@ def results():
     
     
 
-    return render_template('results.html',plants=plants, indoor=indoor)
+    return render_template('results.html',plants=plants)
 
