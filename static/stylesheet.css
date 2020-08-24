@@ -56,8 +56,9 @@ body {
     border: 2px solid #deb25b;
     border-radius: 5px;
     display: block;
+    padding-bottom: 10px;
     height: 2.5em;
-    margin: auto;
+    margin-left: 30px;
     padding-top: 1em;
     padding-bottom: 1em;
     width: 150px;
@@ -65,7 +66,6 @@ body {
     color: black;
     text-decoration: none;
 
-}
 
 }
 
@@ -89,6 +89,22 @@ body {
     }
 }
 
+#back {
+    background-color: white;
+    border: 2px solid #deb25b;
+    border-radius: 5px;
+    display: block;
+    height: 2.5em;
+    margin left: 30px;
+    margin-top: 70px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 150px;
+    text-align: center;
+    color: #deb25b;
+    text-decoration: none;
+
+}
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
 

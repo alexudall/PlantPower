@@ -1,0 +1,9 @@
+body {
+    background-color: #8cac9b;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-image: url(image%20home.jpg);
+    background-repeat: no-repeat;
+}
